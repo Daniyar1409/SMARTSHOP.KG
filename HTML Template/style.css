@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Raleway&family=Rubik&display=swap");
+/*        Sass Template          */
+/*  Global classes  */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+a {
+  text-decoration: none;
+}
+/* Typography classes */
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Color-template */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-secong {
+  color: #00A5C4;
+}
+
+.color-secong-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+.form-row {
+  display: flex;
+}
+.return {
+  margin-right: 3.5rem;
+}
+
+/* top sale */
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+#special-price .grid .grid-item {
+  margin-right: 0.8rem;
+  margin-top: 1rem;
+} 
+.price {
+  font-size: 20px;
+  font-style: bold;
+  color: red;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 987px){
+  #cart .qty {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 533px) and (max-width: 767px){
+  .grid .grid-item {
+    margin: 1rem 2.5rem;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 533px){
+  .grid .grid-item {
+    margin: 1rem 1.5rem;
+  }
+}
+@media screen and (min-width: 485px) and (max-width: 500px){
+  .grid .grid-item:nth-child(odd) {
+    margin-left: 16px;
+  }
+  .grid .grid-item {
+    margin: 1rem 0.5rem;
+  }
+}
+@media screen and (min-width: 461px) and (max-width: 485px){
+  .grid .grid-item:nth-child(odd) {
+    margin-left: 4px;
+  }
+  .grid .grid-item {
+    margin: 1rem 0.2rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 461px){
+  .grid .grid-item {
+    margin-left: 8rem;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 450px){
+  .grid .grid-item {
+    margin-left: 6rem;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 420px){
+  .grid .grid-item {
+    margin-left: 5rem;
+  }
+}
+@media screen and (min-width: 330px) and (max-width: 370px){
+  .grid .grid-item {
+    margin-left: 4rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 330px){
+  .grid .grid-item {
+    margin-left: 3.5rem;
+  }
+}
+@media screen and (min-width: 310px) and (max-width: 320px){
+  .grid .grid-item {
+    margin-left: 3rem;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 310px){
+  .grid .grid-item {
+    margin-left: 2.5rem;
+  }
+}
+@media screen and (min-width: 290px) and (max-width: 300px){
+  .grid .grid-item {
+    margin-left: 2rem;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 290px){
+  .grid .grid-item {
+    margin-left: 1.8rem;
+  }
+}
+@media screen and (min-width: 270px) and (max-width: 280px){
+  .grid .grid-item {
+    margin-left: 1.4rem;
+  }
+}
+@media screen and (min-width: 260px) and (max-width: 270px){
+  .grid .grid-item {
+    margin-left: 1.2rem;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 260px){
+  .grid .grid-item {
+    margin-left: 1rem;
+  }
+}
+@media screen and (min-width: 240px) and (max-width: 250px){
+  .grid .grid-item {
+    margin-left: 0.8rem;
+  }
+}
+
+
+/*
+@media screen and (max-width: 0){
+  #special-price .grid .grid-item {
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+  };
+}; */
+
+
+/*# sourceMappingURL=style.css.map */
